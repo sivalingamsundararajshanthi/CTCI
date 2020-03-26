@@ -1,3 +1,6 @@
+//This problem is to implement an algorithm to determine if a string has all unique characters
+
+
 private boolean isUniqueBruteForce(String s) {
     for (int i=0;i<s.toCharArray().length;i++) {
         for (int j=i+1;j<s.toCharArray().length;j++) {
